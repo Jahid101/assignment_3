@@ -56,7 +56,7 @@ function hotelCost(day){
     }
     else{
         let firstTenDays = 10 * 100;
-        let secondTenDays = 20 * 80;
+        let secondTenDays = 10 * 80;
         let remainingDays = day - 20;
         let moreDays = remainingDays * 50;
         totalCost = firstTenDays + secondTenDays + moreDays;
@@ -64,8 +64,8 @@ function hotelCost(day){
     }
 }
 
-// let getHoltelCost = hotelCost(27);
-// console.log(getHoltelCost);
+let getHoltelCost = hotelCost(27);
+console.log(getHoltelCost);
 
 
 
